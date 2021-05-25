@@ -256,6 +256,7 @@ img{
 .campo__field{
     width: 100%;
     border: 1px solid var(--claro);
+    padding: 1rem;
 }
 .campo__field--textarea{
     height: 20rem;
