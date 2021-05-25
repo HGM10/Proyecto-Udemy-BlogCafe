@@ -187,6 +187,10 @@ img{
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+.autor{
+    color: var(--blanco);
+    text-align: center;
+}
 
 /** Sobre Nosotros **/
 @media (min-width: 768px) { 
