@@ -133,6 +133,8 @@ img{
     border: none;
     margin-bottom: 0;
 }
+
+
 .boton{
     display: block;
     font-family: var(--fuenteHeading);
@@ -149,11 +151,16 @@ img{
     cursor: pointer;
 }
 
+.btn{
+    width: 100%;
+}
+
 @media (min-width: 768px) { 
     .boton{
         display: inline-block;
     }
 }
+
 .boton--primario{
     background-color: var(--negro);
 }
@@ -213,7 +220,7 @@ img{
         column-gap: 2rem;
     }
 }
-}
+
 .curso:last-of-type{
     border: none ;
 }
@@ -261,6 +268,12 @@ img{
 .campo__field--textarea{
     height: 20rem;
 }
+.cmp{
+    display: flex;
+}
+.espacio1{
+    flex:1;
+}
 
 @media (min-width: 768px) { 
     .campo{
@@ -278,5 +291,14 @@ img{
     }
     .campo__field--textarea{
         height: 20rem;
+    }
+    .cmp{
+        display: flex;
+    }
+    .espacio1{
+        width: 30%;
+    }
+    .espacio    {
+        width: 70%;
     }
 }
